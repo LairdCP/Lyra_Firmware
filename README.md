@@ -1,2 +1,66 @@
-# Lyra_Firmware
-Lyra module binary release page
+[![Laird Connectivity](/images/laird_connectivity_logo.jpg)](https://www.lairdconnect.com/)
+# Lyra Firmware
+[![Lyra-P & Lyra-S](/images/lyra_p_and_lyra_s_render.jpg)](https://www.lairdconnect.com/wireless-modules/bluetooth-modules/bluetooth-5-modules/lyra-series-bluetooth-53-modules)
+[![Silabs](/images/silabs_logo.jpg)](https://www.silabs.com)
+[![Gecko SDK](/images/gecko_sdk_logo.jpg)](https://www.silabs.com/developers/gecko-software-development-kit)
+[![Simplicity Studio](/images/simplicity_studio_logo.jpg)](https://www.silabs.com/developers/simplicity-studio)
+
+This is the firmware release page for the Laird Connectivity [Lyra][Lyra product brief] product family.
+
+The product is available in [P (PCB module)][Lyra P module datasheet] & [S (System In Package)][Lyra S module datasheet] variants.
+
+# Content
+
+All firmware is offered in P and S versions, depending upon the Lyra variant in use.
+
+## AT Interface
+
+The [Lyra AT Interface][Lyra AT Interface guide] application builds upon many years of AT Interface experience gained with Laird Connectivity's BL65x range of Bluetooth modules. It offers a VSP service for cable replacement applications and GATT client and server functionality.
+
+Binaries are available for transfer using SWD and OTA and UART bootloader.
+
+## Bluetooth Xpress
+
+For legacy [Bluetooth Xpress][Bluetooth Xpress] users, Bluetooth Xpress firmware is available for usage with the Lyra P & S modules. Note this is a frozen release and further updates will not be supported.
+
+Further details are available in the [Bluetooth Xpress migration guide][Bluetooth Xpress migration guide].
+
+Binaries are available for transfer using SWD and UART bootloader.
+
+## Bootloader
+
+The Bootloader is required for operation of all other applications, and is also needed when performing [native C development][Native C development guide]. This should be the first application programmed to the target device.
+
+Further details of usage of the bootloader can be found in the [Firmware options and upgrade guide][Firmware options and upgrade guide].
+
+Binaries are available for transfer using SWD only.
+
+## DTM
+
+Two DTM applications are available for testing the Lyra BLE radio performance in conjunction with the [Lyra P Explorer DVK][Lyra P Explorer DVK user guide]
+and [Lyra S Explorer DVK][Lyra S Explorer DVK user guide]. These are described as follows.
+
+Binaries are available for transfer using SWD and OTA and UART bootloader.
+
+### BGAPI
+
+This is used in conjunction with [tools supplied by Silabs][Silabs BGAPI DTM documentation]. Communication is performed using the [BGAPI][Silabs BGAPI description] protocol.
+
+### BTSIG
+
+This is used in conjunction with BT-SIG approved DTM test equipment. Communication is performed using the native DTM protocol as defined in the BLE specification.
+
+[Lyra product brief]: <https://www.lairdconnect.com/documentation/product-brief-lyra-series>
+[Lyra P module datasheet]: <https://www.lairdconnect.com/documentation/datasheet-lyra-p>
+[Lyra S module datasheet]: <https://www.lairdconnect.com/documentation/datasheet-lyra-s>
+[Lyra AT Interface guide]: <https://www.lairdconnect.com/documentation/user-guide-interface-application-lyra-series>
+[Bluetooth Xpress]: <https://docs.silabs.com/gecko-os/1/bgx/latest/getting-started>
+[Lyra P Explorer DVK user guide]: <https://www.lairdconnect.com/documentation/user-guide-lyra-p-development-kit>
+[Lyra S Explorer DVK user guide]: <https://www.lairdconnect.com/documentation/user-guide-lyra-s-development-kit>
+[Native C development guide]: <https://www.lairdconnect.com/documentation/user-guide-lyra-series-c-code-development>
+[Firmware options and upgrade guide]: <https://www.lairdconnect.com/documentation/user-guide-firmware-options-and-upgrading-lyra-series>
+[Bluetooth Xpress migration guide]: <https://www.lairdconnect.com/documentation/user-guide-bluetooth-xpress-bgx-migration-lyra-modules>
+[Silabs BGAPI DTM documentation]: <https://www.silabs.com/documents/public/application-notes/an1267-bt-rf-phy-evaluation-using-dtm-sdk-v3x.pdf>
+[Silabs BGAPI description]: <https://docs.silabs.com/bluetooth/3.1/bgapi>
+
+
