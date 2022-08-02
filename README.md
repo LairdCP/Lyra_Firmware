@@ -17,7 +17,7 @@ All firmware is offered in P and S versions, depending upon the Lyra variant in 
 
 ## AT Interface
 
-The [Lyra AT Interface][Lyra AT Interface guide] application builds upon many years of AT Interface experience gained with Laird Connectivity's BL65x range of Bluetooth modules. It offers a VSP service for cable replacement applications and GATT client and server functionality.
+The [Lyra AT Interface][Lyra AT Interface guide] application builds upon many years of AT Interface experience gained with Laird Connectivity's BL65x range of Bluetooth modules. It offers a VSP service for cable replacement applications and GATT client and server functionality. Please find [here][Lyra AT Interface release notes] the latest release notes.
 
 Binaries are available for transfer using SWD and OTA and UART bootloader.
 
@@ -56,6 +56,7 @@ This is used in conjunction with BT-SIG approved DTM test equipment. Communicati
 [Lyra P module datasheet]: <https://www.lairdconnect.com/documentation/datasheet-lyra-p>
 [Lyra S module datasheet]: <https://www.lairdconnect.com/documentation/datasheet-lyra-s>
 [Lyra AT Interface guide]: <https://www.lairdconnect.com/documentation/user-guide-interface-application-lyra-series>
+[Lyra AT Interface release notes]: <https://www.lairdconnect.com/documentation/release-notes-lyra-series-x31171>
 [Bluetooth Xpress]: <https://docs.silabs.com/gecko-os/1/bgx/latest/getting-started>
 [Lyra P Explorer DVK user guide]: <https://www.lairdconnect.com/documentation/user-guide-lyra-p-development-kit>
 [Lyra S Explorer DVK user guide]: <https://www.lairdconnect.com/documentation/user-guide-lyra-s-development-kit>
