@@ -11,6 +11,22 @@ This is the firmware release page for the Laird Connectivity [Lyra][Lyra product
 
 The product is available in [P (PCB module)][Lyra P module datasheet] & [S (System In Package)][Lyra S module datasheet] variants.
 
+---
+**_Note:_** The latest available firmware releases are available on the [Lyra Releases Page].
+
+Details for flashing the different image types can be found in the [Firmware options and upgrade guide] application note.
+
+---
+
+---
+**_Note:_** Lyra DVKs with revision 2.3 or below use alternate labelling for SW1.
+
+The 'BGx' position should be used when programming the Lyra Bootloader, AT Interface and Bluetooth Xpress.
+
+The 'AT / SWO' position should be used when performing native C development.
+
+---
+
 # Content
 
 All firmware is offered in P and S versions, depending upon the Lyra variant in use.
@@ -39,8 +55,8 @@ Binaries are available for transfer using SWD only.
 
 ## DTM
 
-Two DTM applications are available for testing the Lyra BLE radio performance in conjunction with the [Lyra P Explorer DVK][Lyra P Explorer DVK user guide]
-and [Lyra S Explorer DVK][Lyra S Explorer DVK user guide]. These are described as follows.
+Two DTM applications are available for testing the Lyra BLE radio performance in conjunction with the [Lyra P DVK][Lyra P DVK user guide]
+and [Lyra S DVK][Lyra S DVK user guide]. These are described as follows.
 
 Binaries are available for transfer using SWD and OTA and UART bootloader.
 
@@ -58,8 +74,8 @@ This is used in conjunction with BT-SIG approved DTM test equipment. Communicati
 [Lyra AT Interface guide]: <https://www.lairdconnect.com/documentation/user-guide-interface-application-lyra-series>
 [Lyra AT Interface release notes]: <https://www.lairdconnect.com/documentation/release-notes-lyra-series-x31171>
 [Bluetooth Xpress]: <https://docs.silabs.com/gecko-os/1/bgx/latest/getting-started>
-[Lyra P Explorer DVK user guide]: <https://www.lairdconnect.com/documentation/user-guide-lyra-p-development-kit>
-[Lyra S Explorer DVK user guide]: <https://www.lairdconnect.com/documentation/user-guide-lyra-s-development-kit>
+[Lyra P DVK user guide]: <https://www.lairdconnect.com/documentation/user-guide-lyra-p-development-kit>
+[Lyra S DVK user guide]: <https://www.lairdconnect.com/documentation/user-guide-lyra-s-development-kit>
 [Native C development guide]: <https://www.lairdconnect.com/documentation/user-guide-lyra-series-c-code-development>
 [Firmware options and upgrade guide]: <https://www.lairdconnect.com/documentation/user-guide-firmware-options-and-upgrading-lyra-series>
 [Lyra P BGAPI DTM Application Note]: <https://www.lairdconnect.com/documentation/application-note-using-bgapi-direct-test-mode-lyra-p>
@@ -68,3 +84,4 @@ This is used in conjunction with BT-SIG approved DTM test equipment. Communicati
 [Bluetooth Xpress migration guide]: <https://www.lairdconnect.com/documentation/user-guide-bluetooth-xpress-bgx-migration-lyra-modules>
 [Silabs BGAPI DTM documentation]: <https://www.silabs.com/documents/public/application-notes/an1267-bt-rf-phy-evaluation-using-dtm-sdk-v3x.pdf>
 [Silabs BGAPI description]: <https://docs.silabs.com/bluetooth/3.1/bgapi>
+[Lyra Releases Page]: <https://github.com/LairdCP/Lyra_Firmware/releases/tag/GA1.1>
