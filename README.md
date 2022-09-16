@@ -51,7 +51,14 @@ The Bootloader is required for operation of all other applications, and is also 
 
 Further details of usage of the bootloader can be found in the [Firmware options and upgrade guide][Firmware options and upgrade guide].
 
-Binaries are available for transfer using SWD only.
+Bootloaders are also included for use with legacy Bluetooth Xpress hardware designs. Note these differ in the location of the BOOT pin defined by the Bootloader as follows.
+
+|   Bootloader Type  | Lyra P BOOT Pin | Lyra S BOOT Pin |
+|--------------------|-----------------|-----------------|
+| Laird Connectivity |      PC07       |      PA06       |
+| Bluetooth Xpress   |      PD02       |      PD02       |
+
+Binaries are available for transfer using SWD only. Please note that by default all Lyra modules ship with the Laird Connectivity bootloader type preprogrammed.
 
 ## DTM
 
