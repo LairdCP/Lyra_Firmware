@@ -79,7 +79,7 @@ This is used in conjunction with BT-SIG approved DTM test equipment. Communicati
 [Lyra P module datasheet]: <https://www.lairdconnect.com/documentation/datasheet-lyra-p>
 [Lyra S module datasheet]: <https://www.lairdconnect.com/documentation/datasheet-lyra-s>
 [Lyra AT Interface guide]: <https://www.lairdconnect.com/documentation/user-guide-interface-application-lyra-series>
-[Lyra AT Interface release notes]: <https://www.lairdconnect.com/documentation/release-notes-lyra-series-vx-3-1-387>
+[Lyra AT Interface release notes]: <https://www.lairdconnect.com/documentation/release-notes-lyra-series-vx-3-1-402>
 [Bluetooth Xpress]: <https://docs.silabs.com/gecko-os/1/bgx/latest/getting-started>
 [Lyra P DVK user guide]: <https://www.lairdconnect.com/documentation/user-guide-lyra-p-development-kit>
 [Lyra S DVK user guide]: <https://www.lairdconnect.com/documentation/user-guide-lyra-s-development-kit>
