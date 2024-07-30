@@ -91,4 +91,4 @@ This is used in conjunction with BT-SIG approved DTM test equipment. Communicati
 [Bluetooth Xpress migration guide]: <https://www.ezurio.com/documentation/user-guide-bluetooth-xpress-bgx-migration-lyra-modules>
 [Silabs BGAPI DTM documentation]: <https://www.silabs.com/documents/public/application-notes/an1267-bt-rf-phy-evaluation-using-dtm-sdk-v3x.pdf>
 [Silabs BGAPI description]: <https://docs.silabs.com/bluetooth/3.1/bgapi>
-[Lyra Releases Page]: <https://github.com/LairdCP/Lyra_Firmware/releases/tag/GA2.2>
+[Lyra Releases Page]: <https://github.com/LairdCP/Lyra_Firmware/releases/tag/GA3.0>
