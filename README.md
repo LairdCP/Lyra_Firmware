@@ -33,7 +33,7 @@ All firmware is offered in P and S versions, depending upon the Lyra variant in 
 
 ## AT Interface
 
-The [Lyra AT Interface][Lyra AT Interface guide] application builds upon many years of AT Interface experience gained with Ezurio's BL65x range of Bluetooth modules. It offers a VSP service for cable replacement applications and GATT client and server functionality. Please find [here][Lyra AT Interface release notes] the latest release notes.
+The [Lyra AT Interface][Lyra AT Interface guide] application builds upon many years of AT Interface experience gained with Ezurio's BL65x range of Bluetooth modules. It offers a VSP service for cable replacement applications and GATT client and server functionality.
 
 Binaries are available for transfer using SWD and OTA and UART bootloader.
 
